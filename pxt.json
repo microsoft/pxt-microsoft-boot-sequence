@@ -5,7 +5,7 @@
     "dependencies": {
         "device": "*",
         "storyboard": "*",
-        "colors": "*",
+        "color": "*",
         "palette": "*"
     },
     "files": [
