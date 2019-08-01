@@ -97,7 +97,7 @@ namespace storyboard {
                 isDoneEntering = true;
                 overlaySprite.destroy();
                 control.runInParallel(() => {
-                    pause(2000);
+                    pause(1000);
                     logoSprites.forEach(s => s.ax = 500);
                     textSprite.ax = -500;
                 })
