@@ -74,7 +74,7 @@ namespace storyboard {
         });
 
         let allSpritesInPosition = false;
-        game.onUpdate(function () {
+        game.onUpdate(() => {
             allSpritesInPosition = logoSprites
                 .map(s => {
                     const targetPosition = s.data[TARGET_POSITION_KEY];
