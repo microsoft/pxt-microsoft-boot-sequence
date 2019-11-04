@@ -36,6 +36,7 @@ namespace storyboard {
         overlaySprite.x = textSprite.x;
         overlaySprite.z = -1;
 
+
         const makeLogoRectangle = (c: number) => {
             const i = image.create(8, 8);
             i.fill(c);
