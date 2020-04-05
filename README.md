@@ -1,3 +1,6 @@
+---
+---
+
 # microsoft-boot-sequence [![Build Status](https://travis-ci.org/microsoft/pxt-microsoft-boot-sequence.svg?branch=master)](https://travis-ci.org/microsoft/pxt-microsoft-boot-sequence)
 
 A boot sequence animation for MakeCode Arcade.

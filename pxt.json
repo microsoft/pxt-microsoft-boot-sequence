@@ -4,14 +4,13 @@
     "description": "",
     "license": "MIT",
     "dependencies": {
-        "device": "*",
         "storyboard": "*",
         "color": "*",
         "palette": "*"
     },
     "files": [
         "README.md",
-        "main.ts"
+        "sequence.ts"
     ],
     "testFiles": [
         "test.ts"
@@ -20,5 +19,8 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "tsprj",
+    "testDependecies": {
+        "device": "*"
+    }
 }
