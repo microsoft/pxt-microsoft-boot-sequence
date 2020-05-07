@@ -5,7 +5,7 @@ namespace microsoft {
     //% blockId=microsoftsetpaletteColor 
     //% block="set palette colors"
     export function setPaletteColors() {
-        const pal = palette.defaultPalette()
+        const pal = palette.getCurrentColors()
         pal.setColor(2, 0xF25022);
         pal.setColor(7, 0x7FBA00);
         pal.setColor(8, 0x00A4EF)
