@@ -22,7 +22,9 @@ namespace microsoft {
      * Creates a sprite with the microsoft logo
      */
     //% blockId=microsoftlogosprite
-    //% block="create logo sprite"
+    //% block="create Microsoft logo sprite %img=screen_image_picker of kind %kind=spritekind"
+    //% expandableArgumentMode=toggle
+    //% blockSetVariable=myLogo
     export function createLogoSprite(): Sprite {
         const i = image.create(66, 10)
         i.fillRect(0, 0, 4, 4, 2)
