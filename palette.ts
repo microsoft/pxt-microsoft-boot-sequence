@@ -1,3 +1,7 @@
+/**
+ * Some art and colors for Microsoft logos
+ */
+//% color=#00a4ef icon="\uf009"
 namespace microsoft {
     /**
      * Replaces colors 2, 7, 8, 4, 13 with Microsoft coporate colors
