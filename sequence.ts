@@ -23,7 +23,7 @@ namespace storyboard {
         pause(300);
 
         const textSprite = sprites.create(
-            image.create(text.length() * f.charWidth, f.charHeight),
+            image.create(text.length * f.charWidth, f.charHeight),
             Text
         );
         textSprite.image.print(text, 0, 0, tc, f);
