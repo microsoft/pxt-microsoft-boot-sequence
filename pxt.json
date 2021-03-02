@@ -10,7 +10,8 @@
     },
     "files": [
         "README.md",
-        "sequence.ts"
+        "sequence.ts",
+        "palette.ts"
     ],
     "testFiles": [
         "test.ts"
